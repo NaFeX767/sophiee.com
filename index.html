@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DO SOPHIE LOVE ME?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="videoBackground" src="ssstik.io_1689715430841.mp4" autoplay loop muted></video>
+
+  <div id="content">
+    <div id="header">
+        DO SOPHIE LOVE ME?
+      </div>
+      <div id="buttonContainer">
+        <a class="button" href="yes.html">Yes</a>
+        <a class="button" href="no.html">No</a>
+      </div>
+        <script>
+  // JavaScript code
+  var yesButton = document.querySelector('.button[href="yes.html"]');
+  var noButton = document.querySelector('.button[href="no.html"]');
+
+  yesButton.addEventListener('click', function() {
+    window.location.href = 'yes.html'; // Redirect to the custom "YES" page
+  });
+
+  noButton.addEventListener('click', function() {
+    window.location.href = 'no.html'; // Redirect to the custom "NO" page
+  });
+</script>
+</body>
+</html>
